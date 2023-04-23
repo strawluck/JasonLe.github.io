@@ -1,0 +1,24 @@
+.land_container {
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 50em;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title {
+    font-family: 'Monaco', Consolas, 'Lucida Console', monospace;
+    font-size: 3.75em;
+    font-weight: 200;
+    color: #4E90F2;
+}
+
+.description {
+    font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
+    font-weight: 350;
+    font-size: 1.2em;
+    line-height: 35px;
+    color: #7E8081;
+}
