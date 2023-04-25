@@ -1,0 +1,116 @@
+.container {
+    margin: 5em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 50em;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+  }
+  
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.terminal_bar {
+    height: 32px;
+    width: 100%;
+    background-color: #e4e3e5;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circle_button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
+.red {
+    background-color: #f96256;
+    border: solid 1px #f65549;
+}
+
+.yellow {
+    background-color: #fdbc3d;
+    border: solid 1px #ffb524;
+}
+
+.green {
+    background-color: #33c948;
+    border: solid 1px #2dbb41;
+}
+
+.white_box {
+    width: 28px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.left_arrow {
+    width: 6px;
+    float: left;
+    margin-left: -18px;
+    z-index: 1;
+}
+
+.right_arrow {
+    transform: rotate(180deg);
+    width: 6px;
+    float: left;
+    margin-left: -17px;
+    z-index: 1;
+}
+
+.search_bar {
+    width: 185px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+
+.lock {
+    width: 13px;
+    float: left;
+    margin-left: -175px;
+    z-index: 1;
+}
+
+.search_text {
+    font-family: Open Sans, Segoe UI, sans-serif;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #7E8081;
+}
+
+.Jasonimage {
+    width: 346px;
+    border-radius: 0 0 4px 4px;
+}
+
+.description {
+    font-family: Open Sans, Segoe UI, sans-serif;
+    font-weight: 350;
+    font-size: 1.1em;
+    line-height: 30px;
+    margin-left: 2em;
+    color: #7E8081;
+}

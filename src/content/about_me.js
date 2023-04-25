@@ -1,11 +1,11 @@
 const aboutMeContent = [
     {
         topic: '> Jason.education',
-        answer: 'Math and Business Double Degree - University of Waterloo and Wilfred Laurier University',
+        answer: '"Math and Business Double Degree - University of Waterloo and Wilfred Laurier University"',
     },
     {
         topic: '> Jason.currentLocation',
-        answer: 'Waterloo, Ontario',
+        answer: '"Waterloo, Ontario"',
     },
     {
         topic: '> Jason.contactInfo',
@@ -13,7 +13,7 @@ const aboutMeContent = [
     },
     {
         topic: '> Jason.resume',
-        answer: 'JasonLeResume.pdf',
+        answer: '"JasonLeResume.pdf"',
     },
     {
         topic: '> Jason.interests',
