@@ -1,23 +1,6 @@
 import React from 'react';
 import about from '../styles/About.module.scss';
 
-class About extends React.PureComponent {
-    render() {
-        return (
-            <div className={about.container}>
-                <div className={about.terminal_bar}>
-                    <div className={`${about.circle_button} ${about.red}`}/>
-                    <div className={`${about.circle_button} ${about.yellow}`} />
-                    <div className={`${about.circle_button} ${about.green}`} />
-                </div>
-                <div className={about.terminal_window}>
-                    <Statements statements={this.props.statements} />
-                </div>
-            </div>
-        )
-    }
-}
-
 class Statements extends React.PureComponent {
     render() {
         return (
@@ -39,6 +22,23 @@ class Statement extends React.PureComponent {
                     className={about.answer_statement}
                     dangerouslySetInnerHTML={{ __html: this.props.statement.answer }}
                 />
+            </div>
+        )
+    }
+}
+
+class About extends React.PureComponent {
+    render() {
+        return (
+            <div className={about.container}>
+                <div className={about.terminal_bar}>
+                    <div className={`${about.circle_button} ${about.red}`}/>
+                    <div className={`${about.circle_button} ${about.yellow}`} />
+                    <div className={`${about.circle_button} ${about.green}`} />
+                </div>
+                <div className={about.terminal_window}>
+                    <Statements statements={this.props.statements} />
+                </div>
             </div>
         )
     }

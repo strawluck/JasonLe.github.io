@@ -1,0 +1,102 @@
+.title {
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 100%;
+    font-size: 26px;
+    color: #515A67;
+    text-align: center;
+}
+
+.title:after {
+    content: ' ';
+    border: 4px solid #4E90F2;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: Open Sans, Segoe UI, sans-serif;
+    width: 50em;
+}
+
+.experience_card {
+    height: 245px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 50px 100px rgba(37, 76, 135, 0.05),
+      0 15px 35px rgba(37, 76, 135, 0.1), 0 5px 15px rgba(37, 76, 135, 0.1);
+    //box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+      //0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.experience_image {
+    width: 30.7%;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.experience_content {
+    margin-top: 20px;
+    width: 65%;
+    font-family: Open Sans, Segoe UI, sans-serif;
+}
+
+.job_title {
+    font-size: 21px;
+    font-weight: bold;
+    color: #515A67;
+    display: inline-block
+}
+
+.company {
+    font-size: 21px;
+    color: #515A67;
+    margin-left: 7px;
+    display: inline-block
+}
+
+.tools {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4E90F2;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: 380;
+    left: 2;
+}
+
+ul {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: -24px;
+    margin-right: 20px;
+    color: #484F58;
+}
+
+.location_date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    text-align: right;
+    font-weight: 600;
+    color: #8AB4F3;
+}
