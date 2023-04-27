@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/JasonLeWebsite/static/css/main.29006044.css",
+    "main.js": "/JasonLeWebsite/static/js/main.1f43b562.js",
+    "static/js/787.28cb0dcd.chunk.js": "/JasonLeWebsite/static/js/787.28cb0dcd.chunk.js",
+    "static/media/JasonLe.jpg": "/JasonLeWebsite/static/media/JasonLe.198f87deed73458b65f4.jpg",
+    "static/media/magnet_forensics.jpg": "/JasonLeWebsite/static/media/magnet_forensics.0c38512820d54adba0b3.jpg",
+    "static/media/searchbar_arrow.png": "/JasonLeWebsite/static/media/searchbar_arrow.23af4f83b5ef6264d2fd.png",
+    "static/media/immersionlab.jpg": "/JasonLeWebsite/static/media/immersionlab.28806f4073a2de9d7a94.jpg",
+    "static/media/kw-badminton.jpg": "/JasonLeWebsite/static/media/kw-badminton.40d4d689c5206a59ae11.jpg",
+    "index.html": "/JasonLeWebsite/index.html",
+    "main.29006044.css.map": "/JasonLeWebsite/static/css/main.29006044.css.map",
+    "main.1f43b562.js.map": "/JasonLeWebsite/static/js/main.1f43b562.js.map",
+    "787.28cb0dcd.chunk.js.map": "/JasonLeWebsite/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29006044.css",
+    "static/js/main.1f43b562.js"
+  ]
+}
